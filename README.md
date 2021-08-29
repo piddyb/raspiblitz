@@ -559,6 +559,14 @@ IMPORTANT: Presently BTCPay Server service is NOT supported on TESTNET (RPC conn
 ##### Circuitbreaker (LND Firewall)
 
 Not everybody is acting friendly in the Lightning network. Circuitbreaker is a background service you cann activate that acts similar to a firewall to protect your now better. For details see: https://github.com/lightningequipment/circuitbreaker/blob/master/README.md
+Why is circuitbreaker good to have? Because it protects from others trying to block your channels. 
+Short explanation here: https://twitter.com/joostjgr/status/1308414374789427200 
+Longer explanations here: 
+https://bitcoinmagazine.com/technical/good-griefing-a-lingering-vulnerability-on-lightning-network-that-still-needs-fixing 
+https://medium.com/blockchains-huji/congestion-attacks-in-payment-channel-networks-b7ac37208389
+
+
+
 
 ##### LND Auto-Unlock
 
